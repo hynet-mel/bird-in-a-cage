@@ -4,10 +4,17 @@ This is a proof-of-concept way of running bird2 thru docker, with included extra
 
 #
 
+
+
 Fair warning, **none of this in this repository is ANYWHERE near safe for production**, but I know that doesn't stop some people from doing so. So FAIR warning, that whatever is done here and any such consequences of running this in production are none of my concern.
 
 ~~Also 'some people' is me~~
 
+#
+
+### Documentation: 
+ - [./README.md: This file.](README.md)
+ - [./doc/CONFIGURATION.md: Configuration guide](doc/CONFIGURATION.md)
 
 ## But. WHY.
 
