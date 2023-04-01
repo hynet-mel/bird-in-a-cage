@@ -29,6 +29,7 @@ I also happen to be humored by the idea of bird running in a container.
 - Make sure to have `docker` and `docker-compose` installed
 - Clone or download this repository onto your designated router machine
 - slap your bird2 config in the `conf/` directory in this repository
+- Do a simple `docker-compose up -d` while in this directory, wait for it to build and deploy.
 - ~~cry that it is complaining and you have to mess with the configuration~~
 - Enjoy your Bird-in-a-cage
 - ~~Reconsider your setup~~
