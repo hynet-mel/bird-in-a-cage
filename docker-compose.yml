@@ -1,0 +1,15 @@
+version: '3'
+services:
+  bird:
+    image: hynet/bird
+    build: docker/bird2/
+    cap_add:
+      - NET_ADMIN
+      - NET_BROADCAST
+      - NET_RAW
+    network_mode: host
+    restart: always
+    volumes:
+      - ./conf/:/etc/bird:ro
+      - /var/run/bird:/var/run/bird
+
